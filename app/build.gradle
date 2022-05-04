@@ -52,3 +52,5 @@ task(runStat, dependsOn: 'classes', type: JavaExec) {
    main = 'exemple.Stat'
    classpath = sourceSets.main.runtimeClasspath
 }
+sourceCompatibility = JavaVersion.VERSION_14
+targetCompatibility = JavaVersion.VERSION_14
